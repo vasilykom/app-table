@@ -18,6 +18,7 @@
     margin-top:48px;
     margin-bottom:13px;
     margin-left:450px;
+    margin-right: 24px;
     width: 91px;
     height: 24px;
     border-radius: 3px;
@@ -33,4 +34,9 @@
     font-size: 12px;
     font-weight: 300;    
 
+}
+
+.table_edit_options{
+    display:flex;
+    align-items: baseline;
 }

@@ -23,9 +23,16 @@ const AppTableList = ({list}) => {
 
 
         <div>
-            <div className="board-btn small_btn">
-                <button type="button" className="btn btn-primary btn-block btn-sm" >Copy table</button>
-            </div>  
+            <div className="table_edit_options">
+                <div className="board-btn small_btn">
+                    <button type="button" className="btn btn-primary btn-block btn-sm" >Copy table</button>
+                </div>  
+
+                <div className="delete_icon">
+                    <img src="./btn_delete.svg"></img>
+                </div> 
+            </div>
+
 
             <table className="table table-sm">
                 <thead className="thead-dark">
