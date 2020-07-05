@@ -16,8 +16,8 @@ const App = () => {
     ];
 
     return(
-        <div>
-        <AppHeader></AppHeader>
+        <div className="page">
+        {/* <AppHeader></AppHeader> */}
         <TableEditor/>
         <AppTableList list={listData}></AppTableList>
         </div>

@@ -1,0 +1,41 @@
+.group-table {
+    padding-top: 19px;
+    width: 280px;
+    height: 333px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+
+.form-control{
+    width: 245px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #c3ccd9;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.board-row{
+    margin: 0px 17px 20px 18px;
+    height:40px;
+}
+
+.board-btn{
+    margin: 31px 17px 23px 18px;
+    width: 245px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #1493ff;
+    background-color: #ffffff;
+}
+
+.btn .btn-primary .btn-block{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
