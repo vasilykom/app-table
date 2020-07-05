@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 
-import AppHeader from './components/app-header';
 import TableEditor from './components/app-table-editor';
 import AppTableList from './components/app-table-list'
 
@@ -17,12 +16,10 @@ const App = () => {
 
     return(
         <div className="page">
-        {/* <AppHeader></AppHeader> */}
         <TableEditor/>
         <AppTableList list={listData}></AppTableList>
         </div>
     );
 };
-
 
 ReactDOM.render(<App></App>, document.getElementById('root'));

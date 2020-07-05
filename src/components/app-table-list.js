@@ -8,14 +8,12 @@ const AppTableList = ({list}) => {
     const elements = list.map((item)=>{
         return(
             <div>
-             <AppTableListItem
-            name={item.name}
-            surname={item.surname}
-            age={item.age}
-            city={item.city}
-            />
+                <AppTableListItem
+                name={item.name}
+                surname={item.surname}
+                age={item.age}
+                city={item.city}/>
             </div>
-
         )
     })
 

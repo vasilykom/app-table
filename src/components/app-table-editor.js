@@ -7,19 +7,20 @@ return (
     
     <div className="group-table">
         <div className="board-row">
-        <input placeholder = "Name" type= "text" className="form-control"/>
+            <input placeholder = "Name" type= "text" className="form-control"/>
         </div>
         <div className="board-row">
-        <input placeholder = "Surname" className="form-control"/>
+            <input placeholder = "Surname" className="form-control"/>
         </div>
         <div className="board-row">
-        <input placeholder = "Age" className="form-control"/>
+            <input placeholder = "Age" className="form-control"/>
         </div>
         <div className="board-row">
-        <input placeholder = "City" className="form-control"/>  
+            <input placeholder = "City" className="form-control"/>  
         </div>  
+        
         <div className="board-btn">
-        <button type="button" class="btn btn-primary btn-block">ADD</button>
+            <button type="button" class="btn btn-primary btn-block">ADD</button>
         </div>  
     </div>
 
