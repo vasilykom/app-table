@@ -1,13 +1,26 @@
 import React from 'react';
+import './app-table-list-item.css'
 
 const AppTableListItem = ({name,surname,age,city}) => {
     return (
-        <ul>
-            <span> {name}</span>
-            <span> {surname}</span>
-            <span> {age}</span>
-            <span> {city}</span>   
-        </ul>
+        <div>
+
+            <table className="table table-bordered table-hover table-sm">
+
+                <tbody>
+                    <tr>
+                        <td>{name}</td>
+                        <td>{surname}</td>
+                        <td> {age}</td>   
+                        <td> {city}</td>
+                        <td> </td>   
+            
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
     )
 }
 

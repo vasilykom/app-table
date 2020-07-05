@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import AppTableListItem from './app-table-list-item'
 import TableEditor from './app-table-editor';
+import './app-table-list.css'
+
 
 const AppTableList = ({list}) => {
 
@@ -18,9 +20,30 @@ const AppTableList = ({list}) => {
     })
 
     return (
+
+
         <div>
-       {elements}
+            <div className="board-btn small_btn">
+                <button type="button" className="btn btn-primary btn-block btn-sm" >Copy table</button>
+            </div>  
+
+            <table className="table table-sm">
+                <thead className="thead-dark">
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Surname</th>
+                        <th scope="col">Age</th>
+                        <th scope="col">City</th>
+                        <th scope="col">Edit</th>
+                    </tr>
+
+                </thead> 
+
+            </table>
+            {elements}
+
        </div>
+       
     )
 }
 export default AppTableList;

@@ -1,0 +1,36 @@
+.table{
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+    width: 595px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #c8ccd4;
+
+}
+
+.table .thead-dark th{
+    background-color: #0a508c;
+}
+
+.small_btn{
+    margin-top:48px;
+    margin-bottom:13px;
+    margin-left:450px;
+    width: 91px;
+    height: 24px;
+    border-radius: 3px;
+    background-color: #1493ff;
+    background-color: #ffffff;
+    
+}
+.btn-sm{
+    width: 91px;
+    height: 24px;
+    border-radius: 3px;
+    background-color: #1493ff;
+    font-size: 12px;
+    font-weight: 300;    
+
+}

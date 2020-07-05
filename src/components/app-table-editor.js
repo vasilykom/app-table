@@ -18,9 +18,9 @@ return (
         <div className="board-row">
             <input placeholder = "City" className="form-control"/>  
         </div>  
-        
+
         <div className="board-btn">
-            <button type="button" class="btn btn-primary btn-block">ADD</button>
+            <button type="button" className="btn btn-primary btn-block">ADD</button>
         </div>  
     </div>
 
