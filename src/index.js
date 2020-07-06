@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 
-import TableEditor from './components/app-table-editor';
-import AppTableList from './components/app-table-list'
+import TableEditor from './components/app-table-editor/app-table-editor';
+import AppTableList from './components/app-table-list/app-table-list'
 
 const App = () => {
 
