@@ -1,0 +1,22 @@
+
+.table .table-bordered .table-hover .table-sm{
+    height: 32px;
+    text-align: left;
+    }
+    
+.td_name{
+        width: 95px;
+    }
+.td_surname{
+        width: 130px;
+    }
+
+.td_age{
+        width: 97px;
+    }   
+
+.td_city{
+        width: 80px;
+    }
+
+    

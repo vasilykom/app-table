@@ -35,22 +35,21 @@ const AppTableList = ({list}) => {
 
             <div class="table-responsive">
 
-                <table className="table table-sm">
+                <table className="table table-sm table-bordered">
                                 <thead className="thead-dark">
                                     <tr>
-                                        <th scope="col">Name</th>
-                                        <th scope="col">Surname</th>
-                                        <th scope="col">Age</th>
-                                        <th scope="col">City</th>
-                                        <th scope="col">Edit</th>
+                                        <th scope="col" className="th_name">Name</th>
+                                        <th scope="col" className="th_surname">Surname</th>
+                                        <th scope="col" className="th_age">Age</th>
+                                        <th scope="col" className="th_city">City</th>
+                                        <th scope="col" className="th_edit">Edit</th>
                                     </tr>
 
                                 </thead> 
 
                 </table>
                 {elements}
-
-                    
+   
             </div>
             
         </div>

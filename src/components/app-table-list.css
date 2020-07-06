@@ -1,18 +1,22 @@
+.table_section{
+    max-width: 595px;
+    min-width: 280px;
+
+}
+
 .table{
     margin: 0px;
     font-size: 14px;
     font-weight: 300;
-    line-height: 30px;
     width: 595px;
-    border-radius: 3px;
     background-color: #ffffff;
-    border: 1px solid #c8ccd4;
-
+    
 }
 
 .table .thead-dark th{
     background-color: #0a508c;
 }
+
 
 .small_btn{
     margin-top:47px;
@@ -28,13 +32,12 @@
     
 }
 .btn-sm{
-    width: 91px;
     height: 24px;
-    border-radius: 3px;
     background-color: #1493ff;
     font-size: 12px;
     text-transform: none;
     padding-top: 2px;
+    font-weight: 300;
     
 }
 
@@ -48,9 +51,19 @@
     padding-right:13px;
 }
 
-
-.table_section{
-    max-width: 595px;
-    min-width: 280px;
-
+.th_name{
+width: 95px;
 }
+
+.th_surname{
+    width: 130px;
+}
+
+.th_age{
+    width: 97px;
+ }
+
+
+.th_city{
+    width: 80px;
+    }

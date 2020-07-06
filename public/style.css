@@ -2,8 +2,8 @@
 html {
     font-family: 'Roboto', sans-serif;
     background-color: #e5e8ed;
-    padding: 45px 45px 45px 45px;
     margin:0;
+    padding: 45px 45px 45px 45px;
 
 }
 
@@ -11,4 +11,10 @@ html {
     background-color: #e5e8ed;
     margin:0;
     padding:0;
+}
+
+@media (max-width: 370px) {
+        html {
+            padding: 0px 0px 0px 0px;
+        }
 }
