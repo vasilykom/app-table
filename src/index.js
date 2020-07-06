@@ -8,9 +8,9 @@ import AppTableList from './components/app-table-list'
 const App = () => {
 
     const listData = [
-        {name: 'Vasily', surname: 'Komanovsky', age: '40', city: 'Vangazi'},
-        {name: 'Viktor', surname: 'Komanovsky', age: '40', city: 'Vangazi'},
-        {name: 'Vlad', surname: 'Komanovsky', age: '40', city: 'Vangazi'}
+        {name: 'Vasily', surname: 'Komanovsky', age: '40', city: 'Vangazi', id: 1},
+        {name: 'Viktor', surname: 'Komanovsky', age: '40', city: 'Vangazi', id: 2},
+        {name: 'Vlad', surname: 'Komanovsky', age: '40', city: 'Vangazi', id: 3}
 
     ];
 

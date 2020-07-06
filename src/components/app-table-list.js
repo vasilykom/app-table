@@ -1,7 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import AppTableListItem from './app-table-list-item'
-import TableEditor from './app-table-editor';
 import './app-table-list.css'
 
 
@@ -9,12 +7,8 @@ const AppTableList = ({list}) => {
 
     const elements = list.map((item)=>{
         return(
-            <div>
-                <AppTableListItem
-                name={item.name}
-                surname={item.surname}
-                age={item.age}
-                city={item.city}/>
+            <div key = {item.id}>
+                <AppTableListItem {...item}/>
             </div>
         )
     })
@@ -34,9 +28,9 @@ const AppTableList = ({list}) => {
                 </div> 
             </div>
 
-            <div class="table-responsive">
+            <div className="table-responsive">
 
-                <table className="table table-sm table-bordered">
+                <table className="table table-sm ">
                                 <thead className="thead-dark">
                                     <tr>
                                         <th scope="col" className="th_name">Name</th>
