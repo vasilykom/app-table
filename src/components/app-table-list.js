@@ -22,7 +22,7 @@ const AppTableList = ({list}) => {
     return (
 
 
-        <div>
+        <div className="table_section"> 
             <div className="table_edit_options">
                 <div className="board-btn small_btn">
                     <button type="button" className="btn btn-primary btn-block btn-sm" >Copy table</button>
