@@ -53,17 +53,30 @@
 
 .th_name{
 width: 95px;
+font-weight: 300;
+
 }
 
 .th_surname{
     width: 130px;
+    font-weight: 300;
+
 }
 
 .th_age{
     width: 97px;
- }
+    font-weight: 300;
+
+}
 
 
 .th_city{
     width: 80px;
-    }
+    font-weight: 300;
+
+}
+
+.th_edit{
+    font-weight: 300;
+
+}

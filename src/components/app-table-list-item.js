@@ -12,7 +12,14 @@ const AppTableListItem = ({name,surname,age,city}) => {
                         <td className="td_surname">{surname}</td>
                         <td className="td_age">{age}</td>   
                         <td className="td_city">{city}</td>
-                        <td className="td_edit"></td>               
+
+                        <td className="td_edit">
+                            <div className="td_edit_options">
+                                <a href="#" className="edit_row">Edit</a> 
+                                <a href="#" className="delete_row">Delete</a> 
+                            </div>
+                        </td>       
+
                     </tr>
                 </tbody>
             </table>

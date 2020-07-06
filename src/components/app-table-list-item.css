@@ -5,18 +5,34 @@
     }
     
 .td_name{
-        width: 95px;
-    }
+    width: 95px;
+}
 .td_surname{
-        width: 130px;
-    }
+    width: 130px;
+}
 
 .td_age{
-        width: 97px;
-    }   
+    width: 97px;
+}   
 
 .td_city{
-        width: 80px;
-    }
+    width: 80px;
+}
 
-    
+.td_edit_options{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: underline;
+}
+
+.edit_row{
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.delete_row{
+    color: #FF0000;
+    font-weight: 300;
+    font-size: 12px;
+}
+
