@@ -15,15 +15,15 @@
 }
 
 .small_btn{
-    margin-top:48px;
+    margin-top:47px;
     margin-bottom:13px;
-    margin-left:450px;
     margin-right: 24px;
     width: 91px;
     height: 24px;
     border-radius: 3px;
     background-color: #1493ff;
     background-color: #ffffff;
+
     
 }
 .btn-sm{
@@ -32,11 +32,22 @@
     border-radius: 3px;
     background-color: #1493ff;
     font-size: 12px;
-    font-weight: 300;    
-
+    font-weight: 300;
+    padding-top: 2px;
+    
 }
 
 .table_edit_options{
     display:flex;
     align-items: baseline;
+    
+}
+
+.delete_icon{
+    padding-right:13px;
+}
+
+.table-content{
+    width: 595px;
+
 }

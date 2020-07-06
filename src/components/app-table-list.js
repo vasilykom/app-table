@@ -33,23 +33,27 @@ const AppTableList = ({list}) => {
                 </div> 
             </div>
 
+            <div class="table-responsive">
 
-            <table className="table table-sm">
-                <thead className="thead-dark">
-                    <tr>
-                        <th scope="col">Name</th>
-                        <th scope="col">Surname</th>
-                        <th scope="col">Age</th>
-                        <th scope="col">City</th>
-                        <th scope="col">Edit</th>
-                    </tr>
+                <table className="table table-sm">
+                                <thead className="thead-dark">
+                                    <tr>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Surname</th>
+                                        <th scope="col">Age</th>
+                                        <th scope="col">City</th>
+                                        <th scope="col">Edit</th>
+                                    </tr>
 
-                </thead> 
+                                </thead> 
 
-            </table>
-            {elements}
+                </table>
+                {elements}
 
-       </div>
+                    
+            </div>
+            
+        </div>
        
     )
 }
