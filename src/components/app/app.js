@@ -43,7 +43,7 @@ export default class App extends Component {
             surname: surname,
             age: age,
             city: city,
-            id: this.startId
+            id: this.startId++
         }
         this.setState (({ listData})=>{
 

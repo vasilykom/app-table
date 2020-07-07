@@ -34,6 +34,15 @@ export default class AppTableEditor extends Component {
         })
     }
 
+    onClickAddButton = () =>{
+        this.props.onItemAdded(this.state.name,this.state.surname,this.state.age,this.state.city)
+        this.setState({
+            name: '',
+            surname:'',
+            age:'',
+            city: ''
+        })
+    }
     render(){
         return (
     
@@ -42,26 +51,33 @@ export default class AppTableEditor extends Component {
                 <div className="board-row">
                     <input placeholder = "Name" type= "text" className="form-control"
                     onChange={this.onLableChangeName}
+                    value={this.state.name}
                     />
                 </div>
                 <div className="board-row">
                     <input placeholder = "Surname" className="form-control"
-                    onChange={this.onLableChangeSurname}/>
+                    onChange={this.onLableChangeSurname}
+                    value={this.state.surname}
+                    />
                 </div>
 
                 <div className="board-row">
                     <input placeholder = "Age" className="form-control"
-                    onChange={this.onLableChangeAge}/>
+                    onChange={this.onLableChangeAge}
+                    value={this.state.age}
+                    />
                 </div>
 
                 <div className="board-row">
                     <input placeholder = "City" className="form-control"
-                    onChange={this.onLableChangeCity}/> 
+                    onChange={this.onLableChangeCity}
+                    value={this.state.city}
+                    /> 
                 </div>  
         
                 <div className="board-btn">
                     <button type="button" className="btn btn-primary btn-block"
-                    onClick={ () => this.props.onItemAdded(this.state.name,this.state.surname,this.state.age,this.state.city)}
+                    onClick={ this.onClickAddButton}
                     >ADD</button>
 
                 </div>  
