@@ -5,6 +5,7 @@ const AppTableEditor = () => {
 return (
     
     <div className="group-table">
+        <a name="top"></a>
         <div className="board-row">
             <input placeholder = "Name" type= "text" className="form-control"/>
         </div>
