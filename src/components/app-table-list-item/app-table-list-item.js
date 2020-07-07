@@ -15,8 +15,8 @@ const AppTableListItem = ({name,surname,age,city}) => {
 
                         <td className="td_edit">
                             <div className="td_edit_options">
-                                <a href="#" className="edit_row" alt="edit_btn">Edit</a> 
-                                <a href="#" className="delete_row">Delete</a> 
+                                <a href="/#" className="edit_row" alt="edit_btn">Edit</a> 
+                                <a href="/#" className="delete_row">Delete</a> 
                             </div>
                         </td>       
 
