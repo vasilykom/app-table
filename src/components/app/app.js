@@ -36,13 +36,13 @@ export default class App extends Component {
         })
     }
 
-    addItem = (text) => {
+    addItem = (name, surname, age, city) => {
         
         const newItem = {
-            name: text,
-            surname: text,
-            age: text,
-            city: text,
+            name: name,
+            surname: surname,
+            age: age,
+            city: city,
             id: this.startId
         }
         this.setState (({ listData})=>{
