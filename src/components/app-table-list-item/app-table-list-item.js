@@ -11,10 +11,14 @@ export default class AppTableListItem extends Component {
         this.onLableDeleteClick =() => {
             console.log('click is on lable Delete')     
         }
+
+        this.state = {
+
+        }
     }
-    
+
    render(){
-       const {name,surname,age,city} = this.props;
+       const {name,surname,age,city, onDeleted} = this.props;
         return (
             <div>
                 <table className="table table-bordered table-hover table-sm">
@@ -31,7 +35,7 @@ export default class AppTableListItem extends Component {
 
                                     >Edit</a> 
                                     <a href="#top" className="delete_row"
-                                    onClick={ this.onLableDeleteClick}
+                                    onClick={ onDeleted}
                                     >Delete</a> 
                                 </div>
                             </td>       

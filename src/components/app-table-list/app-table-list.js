@@ -5,7 +5,7 @@ import './app-table-list.css';
 export default class AppTableList extends React.Component{
 
     render() {
-        const{list} = this.props;
+        const{list, onDeleted} = this.props;
         
         const elements = list.map((item)=>{
 
@@ -13,7 +13,7 @@ export default class AppTableList extends React.Component{
             return(
                 <div key = {item.id}>
                     <AppTableListItem {...itemProps}
-                    onDeleted={ () => console.log('Deleted')}
+                    onDeleted={ () => onDeleted(id)}
                     />
                 </div>
             )
