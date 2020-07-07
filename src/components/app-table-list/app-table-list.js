@@ -24,7 +24,6 @@ const AppTableList = ({list}) => {
                 </div>  
 
                 <div className="delete_icon">
-                    {/* <img src="./btn_delete.svg"></img> */}
                     <input type="image" src="./btn_delete.svg" alt="delete_btn"></input>
                 </div> 
             </div>
