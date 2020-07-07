@@ -1,6 +1,6 @@
 import React from 'react';
-import AppTableListItem from '../app-table-list-item/app-table-list-item'
-import './app-table-list.css'
+import AppTableListItem from '../app-table-list-item/app-table-list-item';
+import './app-table-list.css';
 
 
 const AppTableList = ({list}) => {

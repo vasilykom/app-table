@@ -1,5 +1,5 @@
 import React from 'react';
-import './app-table-list-item.css'
+import './app-table-list-item.css';
 
 const AppTableListItem = ({name,surname,age,city}) => {
     return (

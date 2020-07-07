@@ -1,7 +1,7 @@
 import React from 'react';
-import './app-table-editor.css'
+import './app-table-editor.css';
 
-const TableEditor = () => {
+const AppTableEditor = () => {
 return (
     
     <div className="group-table">
@@ -26,4 +26,4 @@ return (
     );
 };
 
-export default TableEditor;
+export default AppTableEditor;
