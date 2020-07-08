@@ -3,12 +3,8 @@ import './app-table-editor.css';
 
 export default class AppTableEditor extends Component {
 
-    state = {
-        name: '',
-        surname:'',
-        age:'',
-        city: ''
-    };
+
+    state = { name: '', surname: '', age: '', city: '' };
 
     onLableChangeName = (e) =>{
         this.setState({
@@ -43,7 +39,9 @@ export default class AppTableEditor extends Component {
             city: ''
         })
     }
+
     render(){
+     
         return (
     
             <div className="group-table">
