@@ -10,11 +10,9 @@ export default class App extends Component {
 
     state = {
         listData : [
-            this.createListData('vik','kvo',45,'city'),
-            this.createListData('vik','kvo',45,'city'),
-            this.createListData('vik','kvo',45,'city')
-
-
+            this.createListData('Oleg','Lukin',45,'Riga')
+        ],
+        newEditCandidate:[this.createListData('','','','')
         ]
     }    
 
@@ -43,12 +41,16 @@ export default class App extends Component {
     }
 
     editItem = (id)=> {
-        console.log('edit row',id)
         
-            const idEdit = this.state.listData.findIndex((el)=> el.id ===id);
-            const newEditCandidate=this.state.listData[idEdit]
-        
-        console.log(newEditCandidate)
+        const newEditCandidate=this.state.listData[id]
+        this.setState (({ listData })=>{
+            const idx = listData.findIndex((el)=> el.id ===id);
+            const newListData = [this.state.listData[idx]];
+            console.log('edit row in app',newListData[0])
+
+            return {newEditCandidate: newListData[0]}
+            
+        })   
     }
 
     addItem = (name, surname, age, city) => {
@@ -78,8 +80,8 @@ export default class App extends Component {
         
         return(
             <div className="page">
-            <TableEditor 
-            newEditCandidate = {this.newEditCandidate}
+            <TableEditor
+            editList={this.state.newEditCandidate}
             onItemAdded = {this.addItem}
             />
 

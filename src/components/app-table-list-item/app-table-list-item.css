@@ -36,3 +36,6 @@
     font-size: 12px;
 }
 
+.table-sm td{
+    padding-left: 13px;
+}

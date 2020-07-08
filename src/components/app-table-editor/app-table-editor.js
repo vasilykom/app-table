@@ -41,7 +41,7 @@ export default class AppTableEditor extends Component {
     }
 
     render(){
-     
+
         return (
     
             <div className="group-table">
